@@ -43,12 +43,13 @@ h1 h2 h3 h4 h5 h6{
 	background-color: #2C3E50;
 }
 /*Footer*//*w*/
-#webmap-links a{
+#webmap-links{
 	text-decoration: none;
 	color:white;
 }
-#webmap-links ul{
-	text-decoration: none
+.Company-links ul>li>a{
+	text-decoration: none;
+	list-style:none;
 }
 .footer-parragraph{
 	font-size:80%;

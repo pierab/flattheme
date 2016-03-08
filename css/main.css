@@ -55,6 +55,11 @@
 	border: 1px solid #D74C48;
 	color: white;
 }
+.box-white{
+	background-color: white;
+	padding: 2%;
+	text-align: center;
+}
 @media only screen and (max-width: 500px) {
     .icon {
      	margin-bottom: 4%;  
