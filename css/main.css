@@ -13,25 +13,7 @@
 .clearfix:after {
   clear: both;
 }
-.navbar{
-	background-color: #34495E;
-	padding: 1% 0;
-	margin-bottom: 0;
-	border-radius: 0;
 
-
-}
-.nav{
-	float: right;
-	margin-top: 1%;
-	background-color: #34495E;
-}
-.nav a{
-	color: white;
-}
-.nav-pills>li>a:hover{
-	background-color: #2C3E50;
-}
 .carousel{
 	position: relative;	
 }
@@ -54,6 +36,7 @@
 	margin-top: 7%;
 	border-radius: 50%;
 	float: left;
+	clear: left;
 	background-color: #1C7A44;
 	margin-right: 4%;
 	margin-bottom: 8%;
@@ -64,4 +47,7 @@
 .fa-google-plus{
 	padding: 5% 4%;
 }
-@media 
+@media only screen and (max-width: 500px) {
+    .icon {
+     	margin-bottom: 4%;  
+    }
