@@ -42,13 +42,20 @@ h1 h2 h3 h4 h5 h6{
 .nav-pills>li>a:hover{
 	background-color: #2C3E50;
 }
+av-pills>li.active>a{
+	background-color: red !important;
+}
 /*Footer*//*w*/
-#webmap-links{
-	text-decoration: none;
+footer{
 	color:white;
 }
-footer ul{
-	list-style:none;
+footer a{
+	text-decoration: none;
+}
+footer ul {
+    list-style: none;
+    position: relative;
+    left: -38px;
 }
 .footer-parragraph{
 	font-size:80%;
