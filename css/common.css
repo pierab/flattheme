@@ -17,7 +17,8 @@ h1 h2 h3 h4 h5 h6{
 }
 /*colores*//*w*/
 .bckg-jade{
-	background-color:#2ECC71;	
+	background-color:#2ECC71;
+	color:white;
 }
 .bckg-dark-blue{
 	background-color: #34495E;	
