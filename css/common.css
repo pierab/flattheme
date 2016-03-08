@@ -8,6 +8,9 @@ h1 h2 h3 h4 h5 h6{
 	padding-top:4%;
 	padding-bottom:4%;
 }
+.d-ib{
+	display: inline-block;
+}
 /*colores*//*w*/
 .bckg-jade{
 	background-color:#2ECC71;	
@@ -40,8 +43,12 @@ h1 h2 h3 h4 h5 h6{
 	background-color: #2C3E50;
 }
 /*Footer*//*w*/
-#webmap-links{
+#webmap-links a{
+	text-decoration: none;
 	color:white;
+}
+#webmap-links ul{
+	text-decoration: none
 }
 .footer-parragraph{
 	font-size:80%;
