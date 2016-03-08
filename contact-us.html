@@ -9,8 +9,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -54,7 +54,7 @@
                 <!-- /.container -->
             </nav>
         </header>
-        <section id="contact-info" class="bckg-jade">
+        <section id="contact-info" class="bckg-jade pd-t-b-4">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
@@ -70,50 +70,125 @@
                 </div>
             </div>
         </section>
-        <section id="contact-forms">
+        <section id="contact-forms" class="bckg-silver-light pd-t-b-4">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="form">
-                            <form class="form-horizontal" role="form">
+                            <form class="form" role="form">
                                 <div class="form-group">
-                                    <h2>Contact Us</h2>
+                                    <h2>Contact Form</h2>
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="First Name" type="text" name="first_name"/>
+                                    <input class="form-control" placeholder="First Name" type="text" name="first_name" required/>
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="Last Name" type="text" name="last_name"/>
+                                    <input class="form-control" placeholder="Last Name" type="text" name="last_name" required/>
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" placeholder="E-mail" type="email" name="email"/>
+                                    <input class="form-control" placeholder="E-mail" type="email" name="email" required/>
                                 </div>
                                 <div class="form-group">
-                                    <input class="btn" type="submit" name="Send message"/>
+                                    <input class="btn" type="submit" name="Send message" required/>
                                 </div>
                             </form>
                         </div>
                     </div>
                     <div class="col-md-4">
                        <div class="form">
-                           <form class="" role="form">
+                           <form class="form" role="form">
                                <div class="form-group">
-                                   <textarea class="form-control" rows="5" id="URL"></textarea>
+                                   <textarea class="form-control" rows="8" placeholder="Message" type="text"></textarea>
                                </div>
                            </form>
                        </div> 
                     </div>
                     <div class="col-md-4">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d785890.9086603521!2d89.86106187882854!3d23.79260208981027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adaaed80e18ba7%3A0xf2d28e0c4e1fc6b!2sBangladesh!5e0!3m2!1ses-419!2spe!4v1457452205297" width="380" height="260" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <div>
+                            <h2>Our Location</h2>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d785890.9086603521!2d89.86106187882854!3d23.79260208981027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30adaaed80e18ba7%3A0xf2d28e0c4e1fc6b!2sBangladesh!5e0!3m2!1ses-419!2spe!4v1457452205297" width="350" height="205" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </section>
         <footer>
-            <section id="webmap-links" class="bckg-dark-blue">
-                
+            <section id="webmap-links" class="bckg-dark-blue pd-t-b-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-xs-12">
+                            <div>
+                              <h4><a href="about-us.html">About us</a></h4>  
+                            </div>
+                            <div class="footer-parragraph">
+                               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                               sed diam nonummy nibh euismod reet dolore
+                               magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                               quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+                               ut ali consequat.</p>
+                               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                               sed diam nonummy.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-12">
+                            <div>
+                              <h4><a href="#">Company</a></h4>  
+                            </div>
+                            <div>
+                              <ul class="Company-links">
+                                  <li><a>>The Company</a></li>
+                                  <li><a>>Our Team</a></li>
+                                  <li><a>>Our Partners</a></li>
+                                  <li><a>>Our Services</a></li>
+                                  <li><a>>Faq</a></li>
+                                  <li><a>>Contact us</a></li>
+                                  <li><a>>Privacy Policy</a></li>
+                                  <li><a>>Terms of use</a></li>
+                                  <li><a>>Copyright</a></li>
+                              </ul>  
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-12">
+                            <div class="">
+                              <h4><a href="blog.html">Latest Blogs</a></h4>  
+                            </div>
+                            <div class="latest-post-blog">
+                                <div><img src="images/blog/thumb1.jpg"></img></div>
+                                <h6>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h6>
+                                <p  class="footer-parragraph">Posted 17 Agu 2013</p>
+                            </div>
+                            <div class="latest-post-blog">
+                                <div><img src="images/blog/thumb2.jpg"></img></div>
+                                <h6>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h6>
+                                <p  class="footer-parragraph">Posted 17 Agu 2013</p>
+                            </div>
+                            <div class="latest-post-blog">
+                                <div><img src="images/blog/thumb3.jpg"></img></div>
+                                <h6>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h6>
+                                <p  class="footer-parragraph">Posted 17 Agu 2013</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-xs-12">
+                            <div>
+                              <h4><a href="#contact-forms">Adress</a></h4>  
+                            </div>
+                            <div>
+                                <h6>Twitter, Inc.</h6>
+                                <p class="footer-parragraph">795 Folsom Ave, Suite 600</p>
+                                <p class="footer-parragraph">San Francisco, CA 94107</p>
+                                <p class="footer-parragraph">P: (123) 456-789</p>
+                            </div>
+                            <div class="form">
+                                <div class="form-horizontal form-group">
+                                    <input class="form-control"type="email" name="E-mail" placeholder="Enter your e-mail"/>
+                                    <button class="btn">Go!</button>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
             </section>
-            <section>
+            <section id="copyright" class="bckg-very-dark-blue pd-t-b-4">
                 
             </section>
         </footer>

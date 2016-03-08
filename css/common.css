@@ -1,6 +1,25 @@
-/*colores*/
+/*Padding 0 -H*//*W*/
+h1 h2 h3 h4 h5 h6{
+	padding:0;
+	margin: 0;
+}
+/*UTILCLASS*/
+.pd-t-b-4{
+	padding-top:4%;
+	padding-bottom:4%;
+}
+/*colores*//*w*/
 .bckg-jade{
 	background-color:#2ECC71;	
+}
+.bckg-dark-blue{
+	background-color: #34495E;	
+}
+.bckg-very-dark-blue{
+	background-color:#2C3E50;
+}
+.bckg-silver-light{
+	background: #F5F5F5;
 }
 /*Navbar*/
 .navbar{
@@ -8,8 +27,6 @@
 	padding: 1% 0;
 	margin-bottom: 0;
 	border-radius: 0;
-
-
 }
 .nav{
 	float: right;
@@ -22,4 +39,10 @@
 .nav-pills>li>a:hover{
 	background-color: #2C3E50;
 }
-/*Footer*/
+/*Footer*//*w*/
+#webmap-links{
+	color:white;
+}
+.footer-parragraph{
+	font-size:80%;
+}
