@@ -33,8 +33,35 @@
 	background-color: #2C3E50;
 }
 .carousel{
-	position: 	
+	position: relative;	
 }
 .text-top{
-	position: absolute;
+    position: absolute;
+    top: 31%;
+    left: 6%;
+    color: white;
 }
+.social-marketing{
+	background-color: #2ECC71;
+	padding-top: 4%;
+	padding-bottom: 4%;
+	color: white;
+}
+.icon{
+	color: white;
+	font-size: 28px;
+	padding: 5%;
+	margin-top: 7%;
+	border-radius: 50%;
+	float: left;
+	background-color: #1C7A44;
+	margin-right: 4%;
+	margin-bottom: 8%;
+}
+.fa-facebook{
+	padding: 5% 6.5%;
+}
+.fa-google-plus{
+	padding: 5% 4%;
+}
+@media 
