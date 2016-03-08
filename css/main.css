@@ -59,6 +59,14 @@
 	background-color: white;
 	padding: 2%;
 	text-align: center;
+	box-shadow: -1px -1px 10px 0px rgba(50, 50, 50, 0.75);
+}
+.box-white img{
+	width: 100%;
+}
+.client-say{
+	background-color: #E74C3C;
+	color: white;
 }
 @media only screen and (max-width: 500px) {
     .icon {

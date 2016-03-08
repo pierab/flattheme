@@ -47,8 +47,7 @@ h1 h2 h3 h4 h5 h6{
 	text-decoration: none;
 	color:white;
 }
-.Company-links ul>li>a{
-	text-decoration: none;
+footer ul{
 	list-style:none;
 }
 .footer-parragraph{
