@@ -8,8 +8,12 @@ h1 h2 h3 h4 h5 h6{
 	padding-top:4%;
 	padding-bottom:4%;
 }
-.d-ib{
+/*.d-ib{
 	display: inline-block;
+}*/
+.f-left{
+	float: left;
+    margin: 2%;
 }
 /*colores*//*w*/
 .bckg-jade{
@@ -42,8 +46,8 @@ h1 h2 h3 h4 h5 h6{
 .nav-pills>li>a:hover{
 	background-color: #2C3E50;
 }
-av-pills>li.active>a{
-	background-color: red !important;
+.nav-pills>li.active>a{
+	background-color: #2C3E50;
 }
 /*Footer*//*w*/
 footer{
@@ -59,4 +63,10 @@ footer ul {
 }
 .footer-parragraph{
 	font-size:80%;
+}
+.latest-blogs{
+	margin: 1%;
+}
+.post{
+	padding:2%;
 }

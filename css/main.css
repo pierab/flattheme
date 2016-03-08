@@ -68,6 +68,18 @@
 	background-color: #E74C3C;
 	color: white;
 }
+.line{
+	background-color: white;
+	width:1px;
+	height: 1px;
+	float:left;
+	clear: left;
+}
+.quo{
+	float: right;
+	clear: right;
+	
+}
 @media only screen and (max-width: 500px) {
     .icon {
      	margin-bottom: 4%;  
