@@ -1,20 +1,24 @@
 /*About*/
 .team-member{
-	border-radius: 100px;
-	border: white 2px solid;
+	border-radius: 50%;
+	border: 2px solid white;
 	background-image: url(../images/team-member.jpg);	
 	background-size: cover;
     width: 65%;
     height: 12em;
+    margin:auto;
 }
 [class$="bg"] {
-	border-radius:100px;
+	border-radius:50%;
 	padding: 2%;
+	margin: 1%;
 	width: 12%;
-	float: right;
+	float: left;
+
 }
 .fb-bg{
 	background-color: #4F7DD4;
+	margin-left: 22%;
 }
 .google-bg{
 	background-color: #DC422B;

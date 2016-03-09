@@ -8,9 +8,11 @@
     <title>Blog | Flat Theme</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/common.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/blog.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -45,7 +47,7 @@
                             <li><a href="about-us.html">About Us</a></li>
                             <li><a href="services.html">Services</a></li>
                             <li><a href="portfolio.html">Portfolio</a></li>
-                            <li class="active"><a href="blog-item.html">Blog</a></li>
+                            <li class="active"><a href="blog.html">Blog</a></li>
                             <li><a href="contact-us.html">Contact</a></li>
                         </ul>
                     </div>
@@ -70,59 +72,83 @@
                 </div>
             </div>
         </section>
-        <section id="posts">
+        <section id="posts" class="bckg-silver-light pd-t-b-4">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
                        <div class="card">
-                           <div class="img-post"></div>
-                           <div>
+                           <div class="img-post1"></div>
+                           <div class="blog-post">
                                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
                                <div class="post-icons">
-                                  <div>
-                                     <a href="#"><i class="fa fa-user"></i><span>John</span></a> 
-                                  </div>
-                                  <div>
-                                     <a href="#"><i class="fa fa-folder"></i><span>Bootstrap</span></a> 
-                                  </div>
-                                  <div>
-                                     <a href="#"><i class="fa fa-calendar"></i><span>Sept 16th,2012</span></a> 
-                                  </div>
-                                  <div>
-                                     <a href="#"><i class="fa fa-comment"></i><span>3 comemts</span></a> 
-                                  </div>
- 
-                               </div>
+                                    <a href="#"><i class="fa fa-user"></i><span> John </span></a> 
+                                    <a href="#"><i class="fa fa-folder"></i><span> Bootstrap </span></a> 
+                                    <a href="#"><i class="fa fa-calendar"></i><span> Sept 16th,2012 </span></a> 
+                                    <a href="#"><i class="fa fa-comment"></i><span> 3 comemts </span></a> 
+                                </div>
                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat officiis debitis beatae ducimus atque recusandae ad pariatur consequuntur. Blanditiis dolor sint asperiores, error corporis perspiciatis laboriosam quam incidunt reprehenderit suscipit.</p>
-                               <button>Read more ></button>
+                               <a class="btn" href="blog-item.html">Read more ></a>
                            </div>
                        </div> 
                        <div class="card">
-                           <div class="img-post"></div>
-                           <div>
+                           <div class="img-post2"></div>
+                           <div class="blog-post">
                                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
                                <div class="post-icons">
-                                  <div>
-                                     <a href="#"><i class="fa fa-user"></i><span>John</span></a> 
-                                  </div>
-                                  <div>
-                                     <a href="#"><i class="fa fa-folder"></i><span>Bootstrap</span></a> 
-                                  </div>
-                                  <div>
-                                     <a href="#"><i class="fa fa-calendar"></i><span>Sept 16th,2012</span></a> 
-                                  </div>
-                                  <div>
-                                     <a href="#"><i class="fa fa-comment"></i><span>3 comemts</span></a> 
-                                  </div>
- 
-                               </div>
+                                    <a href="#"><i class="fa fa-user"></i><span> John </span></a> 
+                                    <a href="#"><i class="fa fa-folder"></i><span> Bootstrap </span></a> 
+                                    <a href="#"><i class="fa fa-calendar"></i><span> Sept 16th,2012 </span></a> 
+                                    <a href="#"><i class="fa fa-comment"></i><span> 3 comemts </span></a> 
+                                </div>
                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat officiis debitis beatae ducimus atque recusandae ad pariatur consequuntur. Blanditiis dolor sint asperiores, error corporis perspiciatis laboriosam quam incidunt reprehenderit suscipit.</p>
-                               <button>Read more ></button>
+                               <a class="btn" href="blog-item.html">Read more ></a>
                            </div>
                        </div>
                     </div>
                     <div class="col-md-4">
-                        
+                        <div class="form-horizontal form-group">
+                            <input class="form-control"type="email" name="E-mail" placeholder="Enter your e-mail"/>
+                            <button class="btn"><a href="#"><i class="fa fa-search"></i></a></button>
+                        </div>
+                        <div class="ads">
+                            <div>
+                                <img src="images/ads/ad1.png"></img>
+                            </div>
+                            <div>
+                                <img src="images/ads/ad2.png"></img>
+                            </div>
+                            <div>
+                                <img src="images/ads/ad3.png"></img>
+                            </div>
+                            <div>
+                                <img src="images/ads/ad4.png"></img>
+                            </div>
+                        </div>
+                        <div class="categories">
+                              <ul class="Company-links">
+                                  <li><a>> Development</a></li>
+                                  <li><a>> Desing</a></li>
+                                  <li><a>> Updates</a></li>
+                                  <li><a>> Tutorial</a></li>
+                                  <li><a>> News</a></li>
+                                  <li><a>> Joomia</a></li>
+                                  <li><a>> WordPress</a></li>
+                                  <li><a>> Drupal</a></li>
+                                  <li><a>> Magento</a></li>
+                                  <li><a>> Bootstrap</a></li>
+                              </ul>  
+                        </div>
+                        <div class="tags">
+                            <span class="label label-primary">CSS</span>
+                            <span class="label label-primary">HTML5</span>
+                            <span class="label label-primary">WordPress</span>
+                            <span class="label label-primary">Joomia</span>
+                            <span class="label label-primary">Drupal</span>
+                            <span class="label label-primary">Bootstrap</span>
+                            <span class="label label-primary">JQuery</span>
+                            <span class="label label-primary">Tutorial</span>
+                            <span class="label label-primary">Update</span>
+                        </div>
                     </div>
                 </div>
             </div>

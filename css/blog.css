@@ -1,0 +1,27 @@
+.card{
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 2%;
+    margin-bottom:2%;
+}
+[class^=img]{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    padding: 20%;
+    background-size: cover;
+}
+.blog-post{
+    padding:2%;
+}
+.img-post1{
+    background-image: url(../images/blog/blog1.jpg)
+}
+.img-post2{
+    background-image: url(../images/blog/blog2.jpg)
+}
+.post-icons a{
+    color: #999999;
+    margin-right: 1%;
+}

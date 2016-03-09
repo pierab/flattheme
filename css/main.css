@@ -1,5 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
-
+/*@import url("http://fonts.googleapis.com/css?family=Roboto:400,700,300");*/
+*{
+	font-family: "Roboto"
+}
 .clearfix {
   *zoom: 1;
 }
@@ -15,8 +17,12 @@
 }
 
 .carousel{
-	position: relative;	
-}
+	position: relative;
+	}
+.carousel img{
+	min-height:300px;
+	background-size: cover;
+}	
 .text-top{
     position: absolute;
     top: 31%;
@@ -79,15 +85,17 @@
 	color: white;
 }
 blockquote p{
+	font-family: 'Roboto';
 	font-weight: 300;
+	
 }
 .wedo h2{
 	text-align: center;
 }
 @media only screen and (max-width: 320px) {
   .carousel h1{
-  	font-size: 16px;
-  	margin-top: -20px
+  
+  	margin-top: -90px
   }
     .icon {
      	margin-bottom: 4%;  
