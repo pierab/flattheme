@@ -1,9 +1,4 @@
 /*About*/
-[data-bckg]:before {
-	border-radius:100px;
-	padding: 1%;
-	width: 10%;
-}
 .team-member{
 	border-radius: 100px;
 	border: white 2px solid;
@@ -12,12 +7,21 @@
     width: 65%;
     height: 12em;
 }
-.member-social{
-	display: inline;
+[class$="bg"] {
+	border-radius:100px;
+	padding: 2%;
+	width: 12%;
+	float: right;
 }
-.fb-bckg{
-	background-color: blue;
+.fb-bg{
+	background-color: #4F7DD4;
 }
-.google-bckg{
-	
+.google-bg{
+	background-color: #DC422B;
+}
+.twitter-bg{
+	background-color: #5BCEFF;
+}
+.linkedin-bg{
+	background-color: #21A6D8;
 }
