@@ -68,19 +68,26 @@
 	background-color: #E74C3C;
 	color: white;
 }
-.line{
-	background-color: white;
-	width:1px;
-	height: 1px;
-	float:left;
-	clear: left;
+.client-say h2{
+	text-align: center;
 }
-.quo{
-	float: right;
-	clear: right;
-	
+.client-text{
+	text-align: center;
 }
-@media only screen and (max-width: 500px) {
+.client-say small{
+	color: white;
+}
+blockquote p{
+	font-weight: 300;
+}
+.wedo h2{
+	text-align: center;
+}
+@media only screen and (max-width: 320px) {
+  .carousel h1{
+  	font-size: 16px;
+  	margin-top: -20px
+  }
     .icon {
      	margin-bottom: 4%;  
     }
