@@ -1,0 +1,23 @@
+/*About*/
+[data-bckg]:before {
+	border-radius:100px;
+	padding: 1%;
+	width: 10%;
+}
+.team-member{
+	border-radius: 100px;
+	border: white 2px solid;
+	background-image: url(../images/team-member.jpg);	
+	background-size: cover;
+    width: 65%;
+    height: 12em;
+}
+.member-social{
+	display: inline;
+}
+.fb-bckg{
+	background-color: blue;
+}
+.google-bckg{
+	
+}
